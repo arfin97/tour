@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterActivity">
+    <!--
+        Menu item's that displayed on Toolbar.
+    -->
+    <item
+        android:id="@+id/weather"
+        android:orderInCategory="100"
+        android:title="Weather"
+        app:showAsAction="always"
+        android:icon="@drawable/weather"/>
+    <item
+        android:id="@+id/nearLocation"
+        android:orderInCategory="100"
+        android:title="Location"
+        app:showAsAction="always"
+        android:icon="@drawable/location"/>
+
+</menu>
